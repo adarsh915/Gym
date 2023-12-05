@@ -1,0 +1,367 @@
+.jay{
+    position: relative;
+}
+.wrap{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+  
+
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+.nav-item a{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.wrap-2 h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+}
+.wrap-2 h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.wrap-2 button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+}
+.wrap-2 button:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+.col-12{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;    
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.wrap-3 h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+}
+.wrap-3 p{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.wrap-3 button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+}
+.wrap-3 button:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+#four ul {
+    list-style: none;
+   
+  }
+  
+#four ul li:before {
+    content: '✓';
+    color: red;
+    
+
+  }
+  #four ul li{
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }
+
+  #four button{
+      width: 100%;
+      padding: 10px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+  }
+  #four button:hover{
+      background-color: red;
+      transition: 0.3s;
+  }
+
+  #five button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+
+}
+#five button:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+
+#six .col-12 a{
+    text-decoration: none;
+    color: white;
+}
+#seven .col-12{
+    display: flex;
+}
+.features-caption{
+    padding-left: 10px;
+}
+#eight .container{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+.nav-2{
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand{
+    padding: 15px;
+  
+
+}
+.nav-2 a{
+    font-size: 15px;
+}
+
+.nav-2 a:hover{
+    text-decoration: underline;
+   
+}
+.nine ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .nine ul li {
+    list-style: none;
+  }
+  
+  .nine ul li a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+ .nine ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  .nine ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .nine ul li a:before {
+    content: "";
+    position:relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  .nine ul li a:hover:before {
+    top: 0;
+  }
+  
+  .nine ul li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  .nine ul li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+  .nine ul li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+  .nine ul li:nth-child(4) a:before {
+    background: #dd4b39;
+  }
+  #navbarCollapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 280px; /*example + never use min-width with this solution */
+    height: 100%;
+    background: #000;
+  }
+ 
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(255, 255, 255); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+
+
+#nav2   {
+    background-color: brown; /* Black background color */
+   
+    position: fixed; /* Make it stick/fixed */
+    color: black;
+    top: -200px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 1s;
+    z-index: 9999; /* Transition effect when sliding down (and up) */
+  }
+
+  @media screen and (max-width: 992px) {
+    .collapse{
+      display: none;
+    }
+    .wrap{
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      color: white;
+    
+  
+  }
+ }
+ @media screen and (max-width: 640px) {
+  .wrap{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+  
+
+}
+.text1 h3{
+  font-size: 30px;
+}
+.wrap-2 h1{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 0px;
+}
+.wrap-2 h2{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+}
+#five h1{
+  font-size: 30px;
+
+}
+#five p{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+}
+ .collapse{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .con-btn button{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 30px;
+
+}
+.con-btn button:hover{
+  background-color: red;
+  transition: 0.3s;
+}
+.con-btn2 button{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 30px;
+
+}
+.con-btn2 button:hover{
+  background-color: red;
+  transition: 0.3s;
+}
+.sidenav button{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 30px;
+
+}
+.sidenav button:hover{
+  background-color: red;
+  transition: 0.3s;
+}
+#slide a{
+  color: white;
+}
